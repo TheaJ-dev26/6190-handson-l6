@@ -43,7 +43,7 @@ Before starting the assignment, ensure you have the following software installed
 1. _Generate the Input_:
 
 ```bash
- python3 input_generator.py
+ python3 datagen.py
 ```
 
 2. **Execute Each Task Using spark-submit**:
