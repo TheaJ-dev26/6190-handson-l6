@@ -64,3 +64,4 @@ Before starting the assignment, ensure you have the following software installed
 - When installing Apache Spark, I had errors running `spark-submit main.py`, saying the command was not found. I found that I had to include the installation directory as environment variable: `%SPARK_HOME%`, and then add `%SPARK_HOME/bin` as a path.
 - `python3 input_generator.py` lists the wrong file name. It should be `datagen.py`
 - Running gave me a large error log. So I had to install Hadoop, and set it up similarly to Apache Spark.
+- I am getting a getSubject not supported error when trying to read the CSV's. I was unable to resolve this issue. Despite trying to figure it out through Copilot, everything it suggested gave me the same error.
