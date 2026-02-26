@@ -120,7 +120,8 @@ This avoids the Windows filesystem bug (`getSubject is not supported`).
 #### This executes:
 
 `spark-submit main.py`
-inside a clean Linux Spark environment.
+
+#### inside a clean Linux Spark environment.
 
 ## _Prerequisites_
 
