@@ -111,7 +111,9 @@ This avoids the Windows filesystem bug (`getSubject is not supported`).
 
 #### Build the container:
 
-`docker compose build`
+```bash
+docker compose build
+```
 
 #### Run the Spark job:
 
