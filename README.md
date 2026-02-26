@@ -87,8 +87,12 @@ Compute the average listening duration per user:
 
 ### Task 3 — Genre Loyalty Score
 
-Define your own metric (example):<br>
-`loyalty = total_time_for_genre / total_time_for_user`<br>
+Define your own metric (example):
+
+```bash
+loyalty = total_time_for_genre / total_time_for_user
+```
+
 Then:
 
 - Compute loyalty per user per genre
@@ -117,10 +121,16 @@ docker compose build
 
 #### Run the Spark job:
 
-`docker compose run spark`
+```bash
+docker compose run spark
+```
 
-This executes:<br>
-`spark-submit main.py`<br>
+This executes:
+
+```bash
+spark-submit main.py
+```
+
 inside a clean Linux Spark environment.
 
 ## _Prerequisites_
