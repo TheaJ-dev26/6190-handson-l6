@@ -87,8 +87,8 @@ Compute the average listening duration per user:
 
 ### Task 3 — Genre Loyalty Score
 
-Define your own metric (example):
-`loyalty = total_time_for_genre / total_time_for_user`
+Define your own metric (example):<br>
+`loyalty = total_time_for_genre / total_time_for_user`<br>
 Then:
 
 - Compute loyalty per user per genre
@@ -117,11 +117,9 @@ This avoids the Windows filesystem bug (`getSubject is not supported`).
 
 `docker compose run spark`
 
-#### This executes:
-
-`spark-submit main.py`
-
-#### inside a clean Linux Spark environment.
+This executes:<br>
+`spark-submit main.py`<br>
+inside a clean Linux Spark environment.
 
 ## _Prerequisites_
 
